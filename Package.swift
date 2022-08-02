@@ -8,6 +8,9 @@ let package = Package(
         .library(name: "SwiftyTimer", targets: ["SwiftyTimer"])
     ],
     targets: [
-        .target(name: "SwiftyTimer")
+      .target(
+        name: "SwiftyTimer",
+        path: "Sources"
+      )
     ]
 )
