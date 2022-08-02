@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftyTimer",
+    platforms: [.iOS(.v9), .tvOS(.v9)],
     products: [
         .library(name: "SwiftyTimer", targets: ["SwiftyTimer"])
     ],
